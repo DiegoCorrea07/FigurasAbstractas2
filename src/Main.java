@@ -152,11 +152,12 @@ public class Main implements FiguraHistorial {
 
     @Override
     public void mostrarHistorial() {
-        System.out.println("\nHISTORIAL:");
+        System.out.println("\n -- || HISTORIAL || -- ");
         if (historial.isEmpty()) {
             System.out.println("No hay figuras en el historial.");
         } else {
             for (String item : historial) {
+                System.out.println("\n");
                 System.out.println(item);
             }
         }
